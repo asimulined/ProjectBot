@@ -8,7 +8,7 @@ GlobalWhitelist = {
     "Normalkid20015_72"
 }
 
-function ScriptStuff.whitelist()
+function ScriptStuff.whitelistAdd()
     for k, v in pairs(GlobalWhitelist) do
         table.insert(ScriptStuff.whitelist, v)
     end
