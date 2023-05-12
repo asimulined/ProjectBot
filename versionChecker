@@ -2,9 +2,9 @@ local data = {
     version = nil
 }
 
-local latestVersion = "1.0"
-local latestBeta = "1.0"
-local latestPrivateBeta = "1.0"
+local latestVersion = "0.9"
+local latestBeta = "1.0 beta"
+local latestPrivateBeta = "1.0 beta"
 
 function data.checkVersion()
     if data.version ~= latestVersion and data.version ~= latestBeta and data.version ~= latestPrivateBeta then
