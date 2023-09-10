@@ -1,7 +1,8 @@
 local whitelist = {
     "supercoolkid2017_72",
     "XxHACKSPEEDxX",
-    "2004DeveloperHere"
+    "2004DeveloperHere",
+    "YourMysteriousSon"
 }
 
 return whitelist
